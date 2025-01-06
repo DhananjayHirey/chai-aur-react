@@ -1,0 +1,12 @@
+@keyframes left-animation {
+  0% {
+    transform: translateX(-24rem);
+  }
+  100% {
+    transform: translateX(0rem);
+  }
+}
+
+.left-anim {
+  animation: left-animation 1s ease-out forwards;
+}
